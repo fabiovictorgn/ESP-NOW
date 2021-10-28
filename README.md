@@ -8,14 +8,18 @@
 
 Todos os ESPs estão no modo station, ou seja, não a distinção entre eles, podendo ser qualquer um o que irá “comandar” os demais, ou se preferir, comunicarem entre si sem haver um principal.
 
-Cada ESP é referenciado pelo seu macAddress, ou seja, dessa forma especificamos para qual ESP queremos passar o sinal. Podemos saber o seu valor com seguinte código: 
+Cada ESP é referenciado pelo seu macAddress, dessa forma especificamos para qual ESP queremos passar o sinal. Podemos saber o seu valor com seguinte código: 
 
 ![Foto55](https://user-images.githubusercontent.com/77392769/139269288-2250938b-8dd8-47db-a74a-8ede21b7a892.png)
 
 # Mostrando melhor como utilizá-lo, separei alguns códigos que você pode acessar neste repositório
 
-O exemplo se trata de um ESP que está funcionando como “master”, ou seja, ele está mandando sinal para os demais ESPs
+O exemplo se trata de um ESP que está recebendo sinal por uma porta específica e repassando a informação para os outros ESPs.  
 
-### Cod 1:
+### ESPNowMaster.io:
 
+Será o código do ESP que irá receber a informação e repassar aos demais, por isso é tratado como “master” 
 
+### ESPNowSlave.io:
+
+Será o código do ESP que irá receber a informação do master e executar o que foi exigido, por isso é tratado como “Slave(Escravo)” 
