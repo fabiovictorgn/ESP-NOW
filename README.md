@@ -18,7 +18,7 @@ O exemplo se trata de um ESP que está recebendo sinal por uma porta específica
 
 ### ESPNowMaster.io:
 
-Será o código do ESP que irá receber a informação e repassar aos demais, por isso é tratado como “master” 
+Será o código do ESP que irá receber a informação e repassar para os demais, por isso é tratado como “master” 
 
 ### ESPNowSlave.io:
 
